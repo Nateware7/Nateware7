@@ -3,7 +3,7 @@
 
 
 
-- 🤵🏻 I’m the owner of **RealFit**
+- 🤵🏻 I’m the owner of **FitJourney**
 
 - 👨‍💻 All of my projects are available at **https://mohaportfolio.netlify.app/**
 
