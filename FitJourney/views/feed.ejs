@@ -1,0 +1,82 @@
+<%- include('partials/header') -%>
+<div class="relative">
+<%- include('bars/leftside') -%>
+<%- include('bars/mobile') -%>
+
+<div class="md:ml-72 lg:mr-80 bg-black font-title pb-14">
+  <h1 class="text-3xl font-bold text-white text-center py-6"> Journey </h1>
+
+  <!-- Center container -->
+  <div class="max-w-5xl mx-auto min-h-screen"> 
+    <!-- This will ensure it takes at least the full screen height -->
+    <div class="flex flex-col space-y-4 px-4 ">
+      <% for(var i=0; i<posts.length; i++) { %>
+        <div class="max-w-6xl rounded-xl bg-[#121212] p-6"> <!-- Increased padding from p-4 -->
+          <!-- User Info -->
+          <a href="/profile/<%= posts[i].user._id %>">
+          <div class="flex items-center mb-3"> <!-- Increased margin -->
+            <img src="<%= posts[i].user?.profileImage || '/imgs/anyn.png' %>" 
+                 alt="Profile Picture" 
+                 class="w-12 h-12 rounded-full"> <!-- Increased size -->
+            <div class="ml-4">
+              <div class="font-medium text-lg text-white"><%= posts[i].user?.userName %></div>
+              <div class="text-sm text-gray-400">
+                <%= posts[i].createdAt %> • <%= posts[i].title %>
+              </div>
+            </div>
+          </div>
+          </a>
+
+
+
+          <!-- Post Image -->
+          <div class="mt-4">
+          <a href="/post/<%= posts[i]._id %>">
+          <img src="<%= posts[i].image %>" 
+               alt="Post Image" 
+               class="rounded-lg mb-4 object-cover w-full h-full">
+          </a>
+          </div>
+
+          <div class="text-white">
+            <span class="font-medium text-lg "><%= posts[i].user?.userName %> </span>
+            <span class=" text-gray-300">  <%= posts[i].caption %></span>
+          </div>
+          
+                    
+          <!-- Interaction Buttons -->
+          <div class="flex justify-between items-center pt-2">
+            <div class="flex items-center space-x-4">
+
+              <form action="/post/likePost/<%= posts[i].id %>?_method=PUT" method="POST">
+                <button class="text-gray-400 hover:text-oranges text-xl">
+                  <!-- Check if the user has already liked the post -->
+                  <i class="<%= posts[i].likedBy.includes(user.id) ? 'fas fa-heart text-oranges' : 'far fa-heart ' %>"></i>
+                  <span class="ml-2 text-white"><%= posts[i].likes || 0 %></span>
+                </button>
+              </form>             
+
+              <a href="/post/<%= posts[i]._id %>">
+              <button class="text-gray-400 hover:text-oranges text-xl">
+                <i class="far fa-comment"></i>
+                <span class="ml-2 text-white"><%= posts[i].comments || 0 %></span>
+              </button>
+              </a>
+            </div>
+            <form action="/post/savePost/<%= posts[i]._id %>?_method=PUT" method="POST">
+              <button class="text-gray-400 hover:text-oranges text-xl">
+                <!-- Check if the user has already liked the post -->
+                <i class="<%= posts[i].savedBy.includes(user.id) ? 'fas fa-bookmark text-oranges' : 'far fa-bookmark ' %>"></i>
+              </button>
+              </form>
+          </div>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</div>
+
+
+<%- include('bars/rightside') -%>
+
+</div>

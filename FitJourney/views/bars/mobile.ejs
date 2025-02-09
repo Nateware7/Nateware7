@@ -1,0 +1,28 @@
+<!-- mobile.ejs -->
+<!-- Mobile Header -->
+<header class="md:hidden fixed top-0 left-0 right-0 z-50 flex justify-between items-center bg-[#121212] px-4 py-3 border-b border-[#333333] shadow-md h-16">
+    <a href="/" class="flex justify-center">
+      <img src="/RealBrand/FitJourneyTitle.png" alt="Logo" class="h-6">
+    </a>
+    <a href="/profile/<%= user._id %>" class="flex items-center">
+      <img src="<%= user.profileImage || '/imgs/anyn.png' %>" alt="Profile" class="w-8 h-8 rounded-full">
+    </a>
+  </header>
+  
+  <!-- Bottom Navigation -->
+  <nav id="bottomNav" class="md:hidden fixed bottom-0 left-0 right-0 bg-[#131313] shadow-2xl h-10 font-title transition-transform duration-300 ease-in-out z-50">
+    <div class="flex justify-around items-center h-full px-2 text-oranges">
+      <a href="/feed" class="p-2 hover:bg-white/10 rounded-full transition-colors">
+        <i class="fas fa-home text-2xl"></i>
+      </a>
+      <a href="/explore" class="p-2 hover:bg-white/10 rounded-full transition-colors">
+        <i class="fas fa-globe-americas text-xl "></i>
+      </a>
+      <a href="/add" class="p-2 hover:bg-white/10 rounded-full transition-colors">
+        <i class="fas fa-plus text-xl"></i>
+      </a>
+      <a href="/savedPosts" class="p-2 hover:bg-white/10 rounded-full transition-colors">
+        <i class="fas fa-bookmark text-xl"></i>
+      </a>
+    </div>
+  </nav>

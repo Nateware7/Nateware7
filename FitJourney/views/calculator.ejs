@@ -1,0 +1,56 @@
+<%- include('partials/header') -%>
+<div class="relative">
+<%- include('bars/leftside') -%>
+<%- include('bars/mobile') -%>
+<div class="max-w-lg mx-auto p-6 bg-gray-100 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold mb-4">Calorie & Protein Calculator</h1>
+    <form id="calorie-form" class="space-y-4">
+      <div>
+        <label for="age" class="block text-sm font-medium">Age</label>
+        <input type="number" id="age" class="w-full p-2 border rounded" required>
+      </div>
+      <div>
+        <label for="gender" class="block text-sm font-medium">Gender</label>
+        <select id="gender" class="w-full p-2 border rounded" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div>
+        <label for="weight" class="block text-sm font-medium">Weight (kg)</label>
+        <input type="number" id="weight" class="w-full p-2 border rounded" required>
+      </div>
+      <div>
+        <label for="height" class="block text-sm font-medium">Height (cm)</label>
+        <input type="number" id="height" class="w-full p-2 border rounded" required>
+      </div>
+      <div>
+        <label for="activity-level" class="block text-sm font-medium">Activity Level</label>
+        <select id="activity-level" class="w-full p-2 border rounded" required>
+          <option value="1.2">Sedentary</option>
+          <option value="1.375">Lightly Active</option>
+          <option value="1.55">Moderately Active</option>
+          <option value="1.725">Very Active</option>
+          <option value="1.9">Super Active</option>
+        </select>
+      </div>
+      <div>
+        <label for="goal" class="block text-sm font-medium">Goal</label>
+        <select id="goal" class="w-full p-2 border rounded" required>
+          <option value="lose">Lose Weight</option>
+          <option value="maintain">Maintain Weight</option>
+          <option value="gain">Gain Muscle</option>
+        </select>
+      </div>
+      <button type="submit" class="w-full p-2 bg-blue-500 text-white font-bold rounded">Calculate</button>
+    </form>
+    <div id="result" class="mt-6 p-4 bg-white shadow rounded hidden">
+      <h2 class="text-xl font-bold">Your Daily Requirements:</h2>
+      <p id="calories" class="text-gray-700"></p>
+      <p id="protein" class="text-gray-700"></p>
+    </div>
+  </div>
+<%- include('bars/rightside') -%>
+</div>
+
+<script src="/js/calculation.js"></script>

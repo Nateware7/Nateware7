@@ -1,0 +1,70 @@
+<!-- Sidebar for Desktop -->
+<div class="hidden md:flex flex-col w-72 fixed top-0 left-0 h-screen bg-[#121212] shadow-2xl font-title">
+    <!-- Logo Section -->
+    <div class="p-6 ">
+      <a href="/feed" class="flex justify-center">
+        <img src="/RealBrand/FitJourneyTitle.png" alt="Logo" class="h-10">
+      </a>
+    </div>
+  
+    <!-- Profile Section -->
+    <div class="p-6">
+      <% if (user) { %>
+        <a href="/profile/<%= user._id %>" class="flex items-center hover-effect p-3 rounded-lg transition-all duration-200">
+          <img src="<%= user.profileImage || '/imgs/anyn.png' %>" alt="Profile Picture" class="w-12 h-12 rounded-full border-2 border-oranges">
+          <div class="ml-3">
+            <h2 class="font-semibold text-white text-lg"><%= user.userName %></h2>
+            <p class="text-sm text-gray-400">View Profile</p>
+          </div>
+        </a>
+      <% } %>
+    </div>
+  
+<!-- Navigation Links -->
+<nav class="p-6 flex-grow">
+  <ul class="space-y-6">
+    <!-- Feed Button -->
+    <li>
+      <a href="/feed" class="flex items-center p-3 rounded-lg hover-effect transition-all duration-200">
+        <i class="fas fa-home text-xl"></i>
+        <span class="ml-4 text-lg">Feed</span>
+      </a>
+    </li>
+    <!-- Explore Button -->
+    <li>
+      <a href="/explore" class="flex items-center p-3 rounded-lg hover-effect transition-all duration-200">
+        <i class="fas fa-globe-americas text-xl"></i>
+        <span class="ml-4 text-lg">Explore</span>
+      </a>
+    </li>
+    <!-- Create Button -->
+    <li>
+      <a href="/add" class="flex items-center p-3 rounded-lg hover-effect transition-all duration-200">
+        <i class="fas fa-plus text-xl"></i>
+        <span class="ml-4 text-lg">Create Post</span>
+      </a>
+    </li>
+    <!-- Calculator Button -->
+    <li>
+    </li>
+    <!-- Store Button -->
+    <li>
+      <a href="/savedPosts" class="flex items-center p-3 rounded-lg hover-effect transition-all duration-200">
+        <i class="fas fa-bookmark text-xl"></i>
+        <span class="ml-4 text-lg">Saved</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<script src="/js/navlink.js"></script>
+
+  
+    <!-- Logout Button -->
+    <div class="p-6">
+      <a href="/logout" class="flex items-center p-3 rounded-lg text-red  hover:text-red-700 transition-all duration-200">
+        <i class="fas fa-sign-out-alt text-xl"></i>
+        <span class="ml-4 text-lg">Logout</span>
+      </a>
+    </div>
+  </div>

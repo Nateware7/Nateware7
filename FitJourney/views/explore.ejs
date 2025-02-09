@@ -1,0 +1,86 @@
+<%- include('partials/header') -%>
+<div class="relative">
+  <%- include('bars/leftside') -%>
+  <%- include('bars/mobile') -%>
+
+  <div class="md:ml-72 lg:mr-80 bg-black font-title">
+
+    <!-- Center container -->
+    <div class="max-w-6xl mx-auto min-h-screen "> <!-- Restored the max width to max-w-6xl -->
+      <!-- This will ensure it takes at least the full screen height -->
+      <div class="flex flex-col space-y-4 p-4">
+        
+        <!-- Search Section -->
+        <div class="mb-8 mt-2">
+          <h1 class="text-4xl font-bold text-white mb-6">Search Posts</h1>
+          <div class="relative">
+            <input
+              type="search"
+              placeholder="Search"
+              class="w-full bg-[#1E1E1E] text-white rounded-lg py-3 px-4 pl-12"
+            />
+            <svg 
+              class="absolute left-4 top-3.5 text-gray-400 w-5 h-5" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2" 
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Popular Today Section -->
+        <div class="mb-8">
+          <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-bold text-white">Popular Today</h2>
+          </div>
+
+          <!-- Grid of Posts -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 pb-10">
+            <% for(var i=0; i<posts.length; i++) { %>
+              <div class="relative group rounded-2xl overflow-hidden">
+                <a href="/post/<%= posts[i]._id %>">
+                  <img src="<%= posts[i].image %>" 
+                    alt="Post Image" 
+                    class="rounded-lg mb-4 object-cover w-full h-full">
+                </a>
+
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-2">
+                      <img 
+                        src="<%= posts[i].user?.profileImage || '/imgs/anyn.png' %>" 
+                        alt="Profile Picture" 
+                        class="w-8 h-8 rounded-full mb-2  border-2 border-oranges"
+                      />
+                    </div>
+
+                    <div class="flex items-center space-x-3">
+                      <a href="/post/<%= posts[i]._id %>">
+                      <button class="text-white hover:text-oranges text-xl flex items-center space-x-1">
+                        <i class="<%= posts[i].likedBy.includes(user.id) ? 'fas fa-heart text-oranges' : 'far fa-heart ' %>"></i>
+                        <span class="ml-2"><%= posts[i].likes || 0 %></span>
+                      </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% } %>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <%- include('bars/rightside') -%>
+
+</div>

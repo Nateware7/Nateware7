@@ -1,0 +1,58 @@
+<!-- savedPosts.ejs -->
+<%- include('partials/header') -%>
+<div class="relative">
+  <%- include('bars/leftside') -%>
+  <%- include('bars/mobile') -%>
+
+  <div class="md:ml-72 lg:mr-80 bg-black font-title">
+    <!-- Modified container with proper spacing -->
+    <div class="max-w-6xl mx-auto min-h-[calc(100vh-8rem)] md:min-h-screen pt-16 pb-16 md:pt-0 md:pb-0 overflow-y-auto">
+      <div class="flex flex-col space-y-4 p-4">
+
+        <!-- Popular Today Section -->
+        <div class="mb-8">
+          <div class="flex justify-center items-center mb-6 w-full">
+            <h2 class="text-2xl sm:text-3xl font-bold text-white">Your Saved Journeys</h2>
+          </div>
+
+          <!-- Grid of Posts -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <% posts.forEach(post => { %>
+              <div class="relative group rounded-2xl overflow-hidden aspect-square">
+                <a href="/post/<%= post._id %>" class="block h-full">
+                  <img src="<%= post.image %>" 
+                    alt="Post Image" 
+                    class="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-105">
+                </a>
+
+                <!-- Overlay Content -->
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-2">
+                      <img 
+                        src="<%= post.user?.profileImage || '/imgs/anyn.png' %>" 
+                        alt="Profile Picture" 
+                        class="w-8 h-8 rounded-full border-2 border-oranges"
+                      />
+                    </div>
+
+                    <div class="flex items-center space-x-3">
+                      <a href="/post/<%= post._id %>" class="hover:opacity-80">
+                        <button class="text-white text-xl flex items-center space-x-1">
+                          <i class="<%= post.likedBy.includes(user.id) ? 'fas fa-heart text-oranges' : 'far fa-heart ' %>"></i>
+                          <span class="ml-2"><%= post.likes || 0 %></span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <% }); %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- include('bars/rightside') -%>
+</div>
