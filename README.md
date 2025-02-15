@@ -3,7 +3,7 @@
 
 
 
-- 🤵🏻 Founder of **FitJourney**  **https://fitjourney.onrender.com/**
+- 🤵🏻 Founder of **FitJourney**
 
 - 👨‍💻 All of my projects are available at **https://mohaportfolio.netlify.app/**
 
