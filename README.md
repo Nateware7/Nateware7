@@ -56,13 +56,6 @@ A specialized platform for fitness enthusiasts to connect, share, and track thei
 
 ---
 
-## 📊 GitHub Stats
-
-![Mohammed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&hide_title=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact)
-
----
-
 ## 🔍 What I'm Currently Working On
 
 - Exploring advanced React patterns & performance optimizations  
