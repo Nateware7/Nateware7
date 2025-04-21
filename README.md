@@ -1,79 +1,94 @@
-# Hi there, I'm Mohammed Al-Ameri 👋
+<!-- README.md -->
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/mohammed-derhem)
-[![Email](https://img.shields.io/badge/Email-Contact-informational)](mailto:nateware777@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen)](https://mohammed.up.railway.app(https://mohammed.up.railway.app))
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?duration=3000&color=FF3C38&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Divider">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=32&vCenter=true&width=550&color=FF3C38&lines=Hi+👋%2C+I'm+Mohammed+Al-Ameri!" alt="Intro Typing">
+</p>
+
+<h3 align="center"><b><i>Full-Stack Engineer | SaaS Architect | Code Aesthete</i></b></h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&width=500&height=50&lines=Crafting+modern+web+experiences.;Code+with+clarity%2C+scale+with+vision.;Minimalist+UX%2C+Maximum+Impact.;Based+in+Riyadh%2C+Building+for+the+World." />
+</p>
 
 ---
 
-## 💻 Full-Stack Engineer | Riyadh, Saudi Arabia
+## 🧠 About Me
 
-Developing & solving problems is more than just my job—it's my playground. I specialize in building fast, responsive, and user-friendly applications with a relentless focus on clean code, sleek design, and genuine business value.
+I'm a full-stack engineer focused on shipping powerful web platforms with elegant design and solid architecture. I build with precision, think in systems, and value simplicity.
 
 ---
 
-### 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
-**React · Next.js · TypeScript · JavaScript · TailwindCSS · Redux · Node.js · Express.js · MongoDB · Firebase · Docker · AWS · CI/CD · Cloudflare**
+<div align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CI%2FCD-000000?logo=githubactions&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white&style=for-the-badge" />
+</div>
 
 ---
 
 ## 🚀 Featured Projects
 
-### [Bixt](https://www.bixt.shop) — *Digital Asset Marketplace & SaaS Platform*
+### 🔐 [Bixt](https://www.bixt.shop) — *SaaS Digital Asset Auction Platform*
 
-A comprehensive SaaS auction platform with subscription-based access, engineered for security, transparency, and fair trading.
-
-**Key Features:**
-- Multi-factor Authentication System
-- Real-time Auction Engine
-- End-to-End Encrypted Messaging
-- Subscription Management System
+- 🔒 Multi-Factor Authentication  
+- ⚡ Real-Time Auction Engine  
+- 🛡️ End-to-End Encrypted Messaging  
+- 💳 Subscription-Based SaaS Architecture  
 
 ---
 
-### [RoniMarket](https://www.ronimarket.com) — *Digital Marketplace with Cryptocurrency Integration*
+### 🪙 RoniMarket — *Crypto-Integrated Username Marketplace*
 
-A digital marketplace for premium social media usernames, built for seamless, secure crypto transactions.
-
-**Key Features:**
-- Cryptocurrency Payment Gateway
-- Secure Authentication System
-- Optimized Database Architecture
-- Real-time Notification System
+- 🪙 Secure Cryptocurrency Payments  
+- 👤 Role-Based Auth System  
+- 🧠 Optimized NoSQL Architecture  
+- 🔔 Live Notifications  
 
 ---
 
-### [FitJourney](#) — *Fitness Social Network*
+### 🏋️‍♀️ FitJourney — *Social Fitness Network*
 
-A specialized platform for fitness enthusiasts to connect, share, and track their wellness journeys.
+- 🔄 Community Challenge System  
+- 📊 Calorie & Nutrition Calculators  
+- 🧬 Health-Focused Social Sharing  
+- 🔐 Custom User Roles
+  
+---
 
-**Key Features:**
-- Role-Based Community System
-- Nutrition-Enhanced Social Posts
-- Personalized Nutrition Calculator
-- Community Challenge Framework
+## 📌 Currently Exploring
+
+- Advanced React Patterns  
+- Scalable Microservices  
+- Serverless Functions & Edge Compute  
+- Web3 & Onchain Logic  
 
 ---
 
-## 🔍 What I'm Currently Working On
+## 📫 Let's Connect
 
-- Exploring advanced React patterns & performance optimizations  
-- Diving deeper into serverless architectures  
-- Building scalable microservices with Node.js  
-- Experimenting with Web3 technologies
-
----
-
-## 📫 Let's Connect!
-
-I’m always open to new opportunities and thought-provoking conversations. Reach out and let’s build something great together!
-
-- 📧 **Email:** nateware777@gmail.com  
-- 💼 **LinkedIn:** [linkedin.com/in/mohammed-derhem](https://linkedin.com/in/mohammed-derhem)  
-- 🌐 **Portfolio:** [https://mohammed.up.railway.app](https://mohammed.up.railway.app)(https://mohammed.up.railway.app/)
-- 🕷️ Visit my terminal! [https://nateterminal.vercel.app/](https://nateterminal.vercel.app)
+- 🌐 [Portfolio](https://mohammed.up.railway.app/)  
+- 💼 [LinkedIn](https://linkedin.com/in/mohammed-derhem)  
+- ✉️ [Email](mailto:nateware777@gmail.com)
 
 ---
 
-*“Code is like humor. When you have to explain it, it’s bad.” — Cory House*
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?duration=3000&color=FF3C38&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Divider">
+</p>
