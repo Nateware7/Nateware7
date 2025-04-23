@@ -45,7 +45,7 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
 
 ## 🚀 Featured Projects
 
-### 🔐 [Bixt](https://www.bixt.shop) — *SaaS Digital Asset Auction Platform*
+### 🔐 [Bixt] — *SaaS Digital Asset Auction Platform*
 
 - 🔒 Multi-Factor Authentication  
 - ⚡ Real-Time Auction Engine  
