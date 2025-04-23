@@ -8,7 +8,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=32&vCenter=true&width=550&color=FF3C38&lines=Hi+👋%2C+I'm+Mohammed+Al-Ameri!" alt="Intro Typing">
 </p>
 
-<h3 align="center"><b><i>Full-Stack Engineer | SaaS Architect | Code Aesthete</i></b></h3>
+<h3 align="center"><b><i>Full-Stack Engineer | SaaS Architect | MVP Wizard</i></b></h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&width=500&height=50&lines=Crafting+modern+web+experiences.;Code+with+clarity%2C+scale+with+vision.;Minimalist+UX%2C+Maximum+Impact.;Based+in+Riyadh%2C+Building+for+the+World." />
@@ -78,7 +78,8 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
 - Scalable Microservices  
 - Serverless Functions & Edge Compute  
 - Web3 & Onchain Logic  
-
+- Dockers
+ 
 ---
 
 ## 📫 Let's Connect
