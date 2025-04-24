@@ -19,6 +19,7 @@
 ## 🧠 About Me
 
 I'm a full-stack engineer focused on shipping powerful web platforms with elegant design and solid architecture. I build with precision, think in systems, and value simplicity.
+- 🌐 [Portfolio](https://mohammed.up.railway.app/)  
 
 ---
 
