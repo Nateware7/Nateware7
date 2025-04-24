@@ -46,30 +46,12 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
 ## 🚀 Featured Projects
 
 ### 🔐 [Bixt] — *SaaS Digital Asset Auction Platform*
-
-- 🔒 Multi-Factor Authentication  
-- ⚡ Real-Time Auction Engine  
-- 🛡️ End-to-End Encrypted Messaging  
-- 💳 Subscription-Based SaaS Architecture  
-
 ---
 
 ### 🪙 RoniMarket — *Crypto-Integrated Username Marketplace*
-
-- 🪙 Secure Cryptocurrency Payments  
-- 👤 Role-Based Auth System  
-- 🧠 Optimized NoSQL Architecture  
-- 🔔 Live Notifications  
-
 ---
 
 ### 🏋️‍♀️ FitJourney — *Social Fitness Network*
-
-- 🔄 Community Challenge System  
-- 📊 Calorie & Nutrition Calculators  
-- 🧬 Health-Focused Social Sharing  
-- 🔐 Custom User Roles
-  
 ---
 
 ## 📌 Currently Exploring
