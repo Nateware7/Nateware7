@@ -59,7 +59,6 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
 
 - Advanced React Patterns  
 - Scalable Microservices  
-- Serverless Functions & Edge Compute  
 - Web3 & Onchain Logic  
 - Dockers
  
