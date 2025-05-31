@@ -56,7 +56,7 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
 ---
 
 ## 📌 Currently Exploring
-
+- AI, Data Science, and NLP.
 - Advanced React Patterns  
 - Scalable Microservices  
 - Web3 & Onchain Logic  
