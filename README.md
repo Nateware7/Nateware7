@@ -46,15 +46,16 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
 
 ## 🚀 Featured Projects
 
-### 🔐 [Bixt] — *SaaS Digital Asset Auction Platform*
+### 🔐 [Bixt](https://bixt.com) — *SaaS Digital Asset Auction Platform*
+
 ---
 
-### 🪙 RoniMarket — *Crypto-Integrated Username Marketplace*
+### 🪙 [RoniMarket](https://www.ronimarket.com) — *Crypto-Integrated Username Marketplace*
 ---
 
-### 🏋️‍♀️ FitJourney — *Social Fitness Network*
----
+### 📚 [Edudirectory](https://unicharity-production.up.railway.app) — *Uni Students Platform* 
 
+---
 ## 📌 Currently Exploring
 - AI, Data Science, and NLP.
 - Advanced React Patterns  
