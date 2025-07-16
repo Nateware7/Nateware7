@@ -41,20 +41,6 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
   <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/n8n-FF0000?logo=n8n&logoColor=white&style=for-the-badge" />
 </div>
-
----
-
-## 🚀 Featured Projects
-
-### 🔐 [Bixt](https://bixt.shop) — *SaaS Digital Asset Auction Platform*
-
----
-
-### 🪙 [RoniMarket](https://www.ronimarket.com) — *Crypto-Integrated Username Marketplace*
----
-
-### 📚 [Edudirectory](https://unicharity-production.up.railway.app) — *Uni Students Platform* 
-
 ---
 ## 📌 Currently Exploring
 - AI, Data Science, and NLP.
