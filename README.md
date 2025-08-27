@@ -31,7 +31,6 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" />
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" />
@@ -40,6 +39,10 @@ I'm a full-stack engineer focused on shipping powerful web platforms with elegan
   <img src="https://img.shields.io/badge/CI%2FCD-000000?logo=githubactions&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/n8n-FF0000?logo=n8n&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ngrok-1F1E37?logo=ngrok&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" />
 </div>
 ---
 ## 📌 Currently Exploring
