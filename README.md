@@ -1,67 +1,58 @@
-<!-- README.md -->
+<!-- Premium Minimal GitHub Profile README -->
+
+<br />
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?duration=3000&color=FF3C38&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Divider">
+  <img src="https://readme-typing-svg.herokuapp.com?duration=1400&pause=600&color=FFFFFF&center=true&vCenter=true&width=600&height=60&lines=Mohammed+Al-Ameri;Full-Stack+Engineer;AI+%7C+Fintech+%7C+Medical+Platforms" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&vCenter=true&width=550&color=FF3C38&lines=Hi+👋%2C+I'm+Mohammed+Al-Ameri!" alt="Intro Typing">
+  <b>Founder-minded engineer building scalable systems across AI, B2B, and medical technology.</b><br/>
+  <sub>Based in Riyadh, shipping platforms used by real teams, real clinicians, and real companies.</sub>
 </p>
 
-<h3 align="center"><b><i>Full-Stack Engineer | SaaS Architect | MVP Wizard</i></b></h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&width=500&height=50&lines=Crafting+modern+web+experiences.;Code+with+clarity%2C+scale+with+vision.;Minimalist+UX%2C+Maximum+Impact.;Based+in+Riyadh%2C+Building+for+the+World." />
-</p>
+<br/>
 
 ---
 
-## 🧠 About Me
+## ⚡ What I Do
+I design, architect, and scale platforms end–to–end, turning 0 → 1 ideas into production systems.
 
-I'm a full-stack engineer focused on shipping powerful web platforms with elegant design and solid architecture. I build with precision, think in systems, and value simplicity.
-- 🌐 [Portfolio](https://mohammed.up.railway.app/) 
+- AI-driven medical tools and diagnostic automation  
+- Reinforcement learning environments for medical LLMs  
+- B2B financial systems, workflow engines, and automation  
+- Real-time platforms, dashboards, and multi-tenant SaaS  
+- Secure system design, DevOps pipelines, and scalable architectures  
 
 ---
 
-## ⚙️ Tech Stack
+## 🎯 Current Focus
+- Building **ReDec** — medical RL environments for post-training and evaluating clinical models  
+- Architecting adaptive AI systems that learn clinical styles, workflows, and real-world decision patterns   
+- Leading **Eisal Tec** — a smart invoicing platform focused on automation, seamless authority integrations, and digital financial workflows
+- Expanding enterprise capabilities across both medical AI and financial automation platforms  
+- Writing deep-dive research, system design notes, and technical articles at:  
+  **https://mohammedalameri.me/**
 
+---
+
+## 🛠 Tech Stack (Core)
 <div align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CI%2FCD-000000?logo=githubactions&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/n8n-FF0000?logo=n8n&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ngrok-1F1E37?logo=ngrok&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,ts,js,redis,postgres,mongodb,docker,aws,cloudflare,firebase,supabase,express,vercel&perline=8" />
 </div>
----
-## 📌 Currently Exploring
-- AI, Data Science, and NLP.
-- Advanced React Patterns  
-- Scalable Microservices  
-- Web3 & Onchain Logic  
-- Dockers
- 
----
-
-## 📫 Let's Connect
-
-- 🌐 [Portfolio](https://mohammed.up.railway.app/)  
-- 💼 [LinkedIn](https://linkedin.com/in/mohammed-derhem)  
-- ✉️ [Email](mailto:nateware777@gmail.com)
 
 ---
+
+## 🌐 Find Me
+<p align="center">
+  <a href="https://mohammedalameri.me/">My Space</a> •
+  <a href="https://linkedin.com/in/mohammed-derhem">LinkedIn</a> •
+  <a href="mailto:nateware777@gmail.com">Email</a> •
+  <a href="https://github.com/Nateware7">GitHub</a>
+</p>
+
+<br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?duration=3000&color=FF3C38&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Divider">
+  <sub>Minimal by design — engineered with focus.</sub>
 </p>
