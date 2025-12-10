@@ -38,7 +38,7 @@ I design, architect, and scale platforms end–to–end, turning 0 → 1 ideas i
 
 ## 🛠 Tech Stack (Core)
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,ts,js,redis,postgres,mongodb,docker,aws,cloudflare,firebase,supabase,express,vercel&perline=8" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,ts,js,redis,postgres,mongodb,docker,aws,cloudflare,firebase,supabase,python,express,render,vercel&perline=8" />
 </div>
 
 ---
