@@ -31,13 +31,4 @@ I like building things, reading, and understanding how systems work whether that
 </div>
 
 ---
-
-## 🌐 Find Me
-<p align="center">
-  <a href="https://mohammedalameri.me/">My Space</a> •
-  <a href="https://linkedin.com/in/mohammed-derhem">LinkedIn</a> •
-  <a href="mailto:nateware777@gmail.com">Email</a> •
-  <a href="https://github.com/Nateware7">GitHub</a>
-</p>
-
 <br/>
